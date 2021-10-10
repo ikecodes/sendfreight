@@ -7,16 +7,13 @@
 }
 
 html {
-  /* overflow: hidden; */
+  overflow: hidden;
   box-sizing: border-box;
-  /* font-size: 62.5%; */
 }
 
 .Main_wrapper {
-  overflow: hidden;
   position: relative;
   padding: 0.5rem 7rem;
-  /* height: 2000vh; */
 }
 @media only screen and (max-width: 500px) {
   .Main_wrapper {
