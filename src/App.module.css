@@ -16,13 +16,22 @@ html {
   padding: 0.5rem 7rem;
   /* height: 2000vh; */
 }
-
+@media only screen and (max-width: 500px) {
+  .Main_wrapper {
+    padding: 0;
+  }
+}
 .Back_Icon {
   top: 2rem;
   left: 3rem;
   cursor: pointer;
   position: absolute;
   font-size: 1.5rem;
+}
+@media only screen and (max-width: 500px) {
+  .Back_Icon {
+    display: none;
+  }
 }
 
 .Wrapper {
