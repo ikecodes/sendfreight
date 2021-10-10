@@ -1,0 +1,25 @@
+.Input_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+.Label {
+  display: inline;
+  width: 6rem;
+  background: #fff;
+  margin-left: 0.5rem;
+  transform: translateY(10px);
+}
+.Input {
+  height: 100%;
+  border: none;
+  outline: none;
+  border: 1px solid #ebebeb;
+  padding-left: 0.5rem;
+}
+
+.Input::placeholder {
+  transform: translate(200px, 10px);
+}

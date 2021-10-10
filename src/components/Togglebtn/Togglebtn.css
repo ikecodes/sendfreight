@@ -1,0 +1,33 @@
+.toggle-container {
+  width: 70px;
+  background-color: #c4c4c4;
+  cursor: pointer;
+  border-radius: 3px;
+  border-radius: 1rem;
+  background-color: #efeff3;
+  padding: 2px;
+  height: 32px;
+  position: relative;
+  margin-right: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.toggle-container.notdisabled {
+  background-color: #0745a6;
+}
+
+.dialog-button {
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-110%, -50%);
+  position: absolute;
+  transition: all 0.3s ease;
+}
+.dialog-button.notdisabled {
+  transform: translate(30%, -50%);
+}

@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  /* font-size: 62.5%; */
+}
+
+.Main_wrapper {
+  position: relative;
+  padding: 0.5rem 7rem;
+  /* height: 2000vh; */
+}
+
+.Back_Icon {
+  top: 2rem;
+  left: 3rem;
+  cursor: pointer;
+  position: absolute;
+  font-size: 1.5rem;
+}
+
+.Wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

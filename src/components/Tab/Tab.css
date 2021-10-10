@@ -1,0 +1,28 @@
+.tab-container {
+  width: 20rem;
+  background-color: #c4c4c4;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background-color: #efeff3;
+  padding: 2px;
+  height: 45px;
+  position: relative;
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.tab-button {
+  cursor: pointer;
+  color: #c2c5cc;
+  border-radius: 0.5%;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+.tab-button.notdisabled {
+  background-color: #fff;
+  color: #0745a6;
+}
