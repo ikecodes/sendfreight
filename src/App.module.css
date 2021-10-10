@@ -7,13 +7,9 @@
 }
 
 html {
-  overflow: hidden;
+  /* overflow: hidden; */
   box-sizing: border-box;
   /* font-size: 62.5%; */
-}
-
-body {
-  overflow: hidden;
 }
 
 .Main_wrapper {
