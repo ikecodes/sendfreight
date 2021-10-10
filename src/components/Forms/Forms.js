@@ -9,7 +9,7 @@ const Forms = () => {
       <div className={classes.Input_wrapper}>
         <div className={classes.Imex}>
           <span className={classes.Imex_span}>Import</span>
-          <span className={classes.Divider}>|</span>
+          <span className={classes.Divider}></span>
           <span className={classes.Imex_span}>Export</span>
         </div>
         <div className={classes.Input_box}>
@@ -25,8 +25,13 @@ const Forms = () => {
           <input type='text' placeholder='Ready date' className={classes.Input} />
         </div>
         <div className={classes.Input_box}>
-          <input type='text' placeholder='Incoterms' className={classes.Input} />
-          <FaSortDown />
+          <select id='select1' className={classes.Input}>
+            <option value='Incoterms'>Incoterms</option>
+          </select>
+          {/* <label htmlFor='select1'>
+    
+            <FaSortDown />
+          </label> */}
         </div>
         <div className={classes.Input_box}>
           <input type='text' placeholder='Total cargo value' className={classes.Input} />

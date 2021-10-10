@@ -5,7 +5,7 @@ const Servicebox = ({ active, logo, text, breakText }) => {
   const Servicebox = {
     background: `${active ? '#0745a6' : 'none'}`,
     border: `${active ? 'none' : '1px solid #ebebeb'}`,
-    borderRadius: '0.5rem',
+    borderRadius: '0.3rem',
     paddingTop: '2rem',
     paddingLeft: '1rem',
     marginRight: '1rem',
@@ -15,7 +15,6 @@ const Servicebox = ({ active, logo, text, breakText }) => {
     justifyContent: 'space-between',
     alignContent: 'flex-start',
     overflow: 'hidden',
-    // flexGrow: '1',
     width: '15rem',
   };
   return (
@@ -30,7 +29,7 @@ const Servicebox = ({ active, logo, text, breakText }) => {
           `${text}`
         )}
       </p>
-      <img src={logo} alt='Service logo' height='60rem' style={{ height: '3rem', marginLeft: '0.2rem', transform: 'translate(0.2rem, 0.2rem)' }} />
+      <img src={logo} alt='Service logo' style={{ height: '4rem', marginLeft: '0.2rem', transform: 'translate(0.2rem, 0.2rem)' }} />
     </div>
   );
 };

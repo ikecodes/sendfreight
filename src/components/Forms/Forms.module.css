@@ -1,19 +1,21 @@
 .Imex {
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1rem;
   border-radius: 0.2rem;
   border: 1px solid #ebebeb;
   display: inline-block;
   margin: 0.5rem 0;
-  margin-right: 0.5rem;
+  margin-right: 3rem;
 }
 .Imex_span {
-  padding: 1rem 0;
+  padding: 0.7rem 0;
+  /* height: 100%; */
+  color: #777;
   cursor: pointer;
 }
-.Divider {
-  margin: 0 0.3rem;
-  height: 100%;
-  width: 2px;
+.Imex_span:first-child {
+  border-right: 1px solid #ebebeb;
+  margin-right: 1rem;
+  padding-right: 1rem;
 }
 
 .Input_wrapper {
@@ -23,11 +25,11 @@
 }
 .Input_box {
   background-color: #f8f8f8;
-  height: 2rem;
+  height: 2.5rem;
   display: flex;
   width: 20rem;
   align-items: center;
-  padding: 0.5rem 1rem;
+  /* padding: 0.8rem 1rem; */
   margin: 1rem 1rem 1rem 0;
 }
 .Input {
@@ -35,8 +37,14 @@
   outline: none;
   background-color: #f8f8f8;
   width: 100%;
+  margin-left: 0.8rem;
+  font-size: 16px;
+}
+select {
+  color: #777;
+  padding: 0 1rem;
 }
 
 .Icon {
-  margin-right: 1rem;
+  margin-left: 1rem;
 }

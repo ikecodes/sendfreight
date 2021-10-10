@@ -8,7 +8,9 @@
 }
 
 .Logo {
-  margin-right: 2rem;
+  margin-right: 3rem;
+  height: 1.8rem;
+  width: auto;
 }
 .Input_box {
   display: flex;
@@ -16,6 +18,14 @@
   background: #396bb8;
   width: 40%;
   padding: 0 1rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+@media only screen and (max-width: 500px) {
+  .Input_box {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 .Input {
   border: none;
@@ -24,6 +34,8 @@
   color: #fff;
   padding: 1rem;
   height: 100%;
+  font-size: 16px;
+  width: 100%;
   margin-right: auto;
 }
 .Input::placeholder {
@@ -53,4 +65,12 @@
   background-color: #5cc784;
   color: #fff;
   cursor: pointer;
+}
+@media only screen and (max-width: 500px) {
+  .Btn_nooutline {
+    margin: 0;
+  }
+  /* .Btn_outline {
+    margin: 0;
+  } */
 }
