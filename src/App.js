@@ -39,7 +39,7 @@ const App = () => {
             <Forms />
           </Contentbox>
           <Contentbox>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap' }}>
               <h2>Cargo Details</h2>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <Togglebtn />

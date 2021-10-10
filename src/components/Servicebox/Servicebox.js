@@ -9,6 +9,7 @@ const Servicebox = ({ active, logo, text, breakText }) => {
     paddingTop: '2rem',
     paddingLeft: '1rem',
     marginRight: '1rem',
+    margin: '1rem 1rem 1rem 0',
     color: `${active ? '#fff' : '#777'}`,
     display: 'flex',
     justifyContent: 'space-between',
