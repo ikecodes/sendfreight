@@ -7,11 +7,17 @@
 }
 
 html {
+  overflow: hidden;
   box-sizing: border-box;
   /* font-size: 62.5%; */
 }
 
+body {
+  overflow: hidden;
+}
+
 .Main_wrapper {
+  overflow: hidden;
   position: relative;
   padding: 0.5rem 7rem;
   /* height: 2000vh; */
